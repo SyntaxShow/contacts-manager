@@ -9,6 +9,9 @@ win.title('Contacts')
 win.config(bg=bg)
 win.resizable(0,0)
 db1 = db_contacts.Database('mydata.db')
+print('***********')
+
+
 #|||||||||||||||||||||||||||||||||functions||||||||||||||||||||||||||||||||||||
 def insert():
     fname = ent_fname.get()
